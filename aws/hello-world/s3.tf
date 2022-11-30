@@ -6,8 +6,8 @@ resource "random_string" "random" {
   min_lower = 16
 }
 
-resource "aws_s3_bucket" "bucket_test" {
-  bucket = "hello-env012321321311"
+resource "aws_s3_bucket" "bucket_test2" {
+  bucket = "hello-env012321321312"
 }
 
 
