@@ -16,6 +16,11 @@ resource "aws_s3_bucket" "website_bucket" {
   force_destroy = true
 }
 
+resource "aws_s3_bucket" "website_bucket2" {
+  bucket = "env0-s3-1${random_string.random.result}"
+  force_destroy = true
+}
+
 resource "aws_s3_bucket_ownership_controls" "bucket_ownership" {
   bucket = aws_s3_bucket.website_bucket.id
   rule {
