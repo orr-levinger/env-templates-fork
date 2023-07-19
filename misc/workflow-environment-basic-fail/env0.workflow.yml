@@ -1,0 +1,8 @@
+environments:
+  rootService1:
+    name: nullService1
+    templateName: 'null resource'
+  rootService2:
+    needs: rootService1
+    name: nullService2
+    templateName: 'null resource'
