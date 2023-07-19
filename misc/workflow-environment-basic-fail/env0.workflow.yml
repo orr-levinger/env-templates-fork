@@ -3,6 +3,7 @@ environments:
     name: nullService1
     templateName: 'null-resource-invalid'
   rootService2:
-    needs: rootService1
+    needs:
+      - rootService1
     name: nullService2
     templateName: 'null-resource'
