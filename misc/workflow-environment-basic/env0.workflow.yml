@@ -1,6 +1,7 @@
 environments:
   rootService1:
-    name: env0-workspace-nullService1
+    name: env0-workspace
+    workspace: env0-workspace-rootService1
     templateName: 'null-resource'
   rootService2:
     workspace: env0-workspace-rootService2
