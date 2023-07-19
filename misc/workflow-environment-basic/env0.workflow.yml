@@ -1,7 +1,7 @@
 environments:
-  rootService1:
-    name: nullService1
+  rootService11:
+    name: nullService11
     templateName: 'null-resource'
-  rootService2:
-    name: nullService2
+  rootService22:
+    name: nullService22
     templateName: 'null-resource'
