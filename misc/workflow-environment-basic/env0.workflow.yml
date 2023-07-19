@@ -1,7 +1,8 @@
 environments:
-  rootService11:
-    name: nullService11
+  rootService1:
+    name: env0-workspace-nullService1
     templateName: 'null-resource'
-  rootService22:
-    name: nullService22
+  rootService2:
+    workspace: env0-workspace-rootService2
+    name: nullService2
     templateName: 'null-resource'
