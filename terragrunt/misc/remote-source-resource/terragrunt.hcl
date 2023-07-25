@@ -9,5 +9,5 @@ EOF
 }
 
 terraform {
-  source = "https://github.com/orr-levinger/env-templates-fork/tree/master/terragrunt/misc/remote-source-resource/azurerm_resource_group"
+  source = "github.com/orr-levinger/env-templates-fork//terragrunt/misc/remote-source-resource/azurerm_resource_group"
 }
