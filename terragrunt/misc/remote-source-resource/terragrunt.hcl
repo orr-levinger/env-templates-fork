@@ -8,7 +8,6 @@ resource "null_resource" "module4" {
 EOF
 }
 
-
 terraform {
-  source = "https://github.com/orr-levinger/env-templates-fork/tree/master/misc/null-resource"
+  source = "https://github.com/orr-levinger/env-templates-fork/tree/master/terragrunt/misc/remote-source-resource/azurerm_resource_group"
 }
