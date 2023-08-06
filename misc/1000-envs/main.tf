@@ -9,7 +9,7 @@ terraform {
 # Configure the env0 provider
 provider "env0" {
   api_key    = "dhyumntownro11ur"
-  api_secret = "yy2_vbKfbzGGASxXxFl-1YM6aOWpTZW8"
+  api_secret = "****"
   organization_id = "19c7c74c-9fc1-4787-a5c9-17699c7dbcbc"
   api_endpoint = "https://api-dev.dev.env0.com"
 }
