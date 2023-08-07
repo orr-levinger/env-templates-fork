@@ -2,7 +2,7 @@ version: 1
 
 deploy:
   steps:
-    helmDiff:
+    k8sDiff:
       before:
         - "kubectl get nodes"
         - "kubectl config current-context"
