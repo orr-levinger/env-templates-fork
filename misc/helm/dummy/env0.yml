@@ -1,0 +1,7 @@
+version: 1
+
+deploy:
+  steps:
+    helmDiff:
+      before:
+        - "kubectl config current-context"
