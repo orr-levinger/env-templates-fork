@@ -4,5 +4,6 @@ deploy:
   steps:
     k8sDiff:
       before:
+        - "cat /home/node/.kube/config"
         - "kubectl get nodes"
         - "kubectl config current-context"
