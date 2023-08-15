@@ -1,0 +1,9 @@
+environments:
+  rootService1:
+    name: env0-workspace
+    workspace: env0-workspace-bitmani-ngnix
+    templateName: 'bitmani-ngnix'
+  rootService2:
+    workspace: env0-workspace-simple-k8s
+    name: nullService2
+    templateName: 'simple-k8s'
